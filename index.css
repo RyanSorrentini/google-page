@@ -54,9 +54,11 @@ li a:hover {
   }
 
 .searchbtns {
-    background-color: lightgray;
+    background-color: rgba(225, 225, 225, 0.88);
     color: black;
     font-size: 0.75rem;
+    line-height: 3;
+    width: 135px;
 }
 
 #navbar {
@@ -87,8 +89,6 @@ li a:hover {
 .show-app-button span {
     display: none;
 }
-
-
 
 #main-content {
     margin-top: 10%;
@@ -136,7 +136,7 @@ li a:hover {
 
 #searchbtn1 {
     grid-area: searchbtn1;
-    justify-self: center;
+    justify-self: end;
 }
 
 #searchbtn2 {
@@ -157,6 +157,7 @@ li a:hover {
 
 #footer {
     display: grid;
+    align-items: center;
     grid-area: footer;
     grid-template-columns: 1fr auto 1fr;
     grid-template-areas: "foot-left . foot-right";
